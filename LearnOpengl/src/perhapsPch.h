@@ -1,0 +1,19 @@
+#pragma once
+#include "glad/glad.h"
+#include "glfw3.h"
+#include <iostream>
+#include <unordered_map>
+#include <string>
+#include <vector>
+#include <chrono>
+#include <fstream>
+#include <sstream>
+#include "utils/Logging.h"
+#include "vendors/stb_image.h"
+#include <algorithm>
+#include "utils/Component.h"
+#include "utils/Time.h"
+
+#include "vendors/glm/glm.hpp"
+#include "vendors/glm/gtc/matrix_transform.hpp"
+#include "vendors/glm/gtc/type_ptr.hpp"
